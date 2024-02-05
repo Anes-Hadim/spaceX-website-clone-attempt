@@ -58,6 +58,7 @@ video {
   display: inline-block;
   transition: color 0.2s;
   animation: reload 0.5s ease-in-out 0.4s backwards;
+  white-space: nowrap;
 }
 
 .container .info a::before {
@@ -124,7 +125,7 @@ video {
   width: 20px;
   height: 20px;
   position: absolute;
-  bottom: 9%;
+  bottom: 7%;
   left: 50%;
   border-right: 2px solid #fff;
   border-bottom: 2px solid #fff;
@@ -134,22 +135,22 @@ video {
 
 @keyframes down {
   0% {
-    bottom: 9%;
+    bottom: 7%;
     opacity: 0;
   }
 
   50% {
-    bottom: 8%;
+    bottom: 6%;
     opacity: 1;
   }
 
   70% {
-    bottom: 8%;
+    bottom: 6%;
     opacity: 0;
   }
 
   100% {
-    bottom: 9%;
+    bottom: 7%;
     opacity: 0;
   }
 }
