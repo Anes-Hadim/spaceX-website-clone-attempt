@@ -305,6 +305,7 @@ video {
   height: 3px;
   transform: rotate(0) translateY(-2px);
   transition: transform 0.6s ease-in-out;
+  margin: 1px;
 }
 
 .side ul {
